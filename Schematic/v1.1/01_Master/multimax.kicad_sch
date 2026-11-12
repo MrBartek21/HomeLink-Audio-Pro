@@ -1175,6 +1175,18 @@
 		(uuid "3176116d-67c6-47bc-9ef5-7ef917758427")
 	)
 	(junction
+		(at 172.72 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae15f58d-6c9f-4482-a817-8d9f030063ec")
+	)
+	(junction
+		(at 172.72 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a103d7-326b-4941-a157-9d681870c746")
+	)
+	(junction
 		(at 151.13 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1228,7 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 66.04) (xy 161.29 66.04)
+			(xy 176.53 66.04) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 60.96) (xy 161.29 60.96)
+			(xy 176.53 60.96) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1298,6 +1310,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f89563d-0e13-4146-89a4-835ee2e90542")
+	)
+	(wire
+		(pts
 			(xy 176.53 62.23) (xy 176.53 60.96)
 		)
 		(stroke
@@ -1318,6 +1340,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 59.69) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6f1e51-e3ba-4157-adf2-8f76f4a7f1bb")
+	)
+	(wire
+		(pts
 			(xy 110.49 68.58) (xy 134.62 68.58)
 		)
 		(stroke
@@ -1335,6 +1367,16 @@
 			(type default)
 		)
 		(uuid "a2ad6957-9b39-4b90-9ab3-e4b484f6e898")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 172.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34a64a1-a12d-411a-80cd-15c9eee082ea")
 	)
 	(wire
 		(pts
@@ -1425,6 +1467,36 @@
 			(type default)
 		)
 		(uuid "c99f790b-199c-4e59-9095-061c3f50452e")
+	)
+	(wire
+		(pts
+			(xy 172.72 60.96) (xy 161.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e467a4f3-e74e-446b-80f9-36bed891d2e1")
+	)
+	(label "RS485-B-N"
+		(at 172.72 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf4627a0-1b56-4b7f-9d93-f8e9876cd531")
+	)
+	(label "RS485-A-P"
+		(at 172.72 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec25e916-e05e-4f9b-a623-e3da9196da1d")
 	)
 	(global_label "RX"
 		(shape output)
