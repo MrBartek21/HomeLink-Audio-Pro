@@ -693,9 +693,14 @@
         "filename": "io.kicad_sch",
         "name": "IO",
         "uuid": "b1566fbf-ae90-4e97-8064-9c0dd17ec02c"
+      },
+      {
+        "filename": "dsp.kicad_sch",
+        "name": "DSP",
+        "uuid": "50134f5f-c4c8-40a6-ad96-069a1d577a12"
       }
     ],
-    "used_designators": "#PWR1-3,#PWR7,#PWR11,#PWR13-18,#PWR21-28,BT1,C1-15,D3,J1-4,J6-10,R4-5,R12-18,RV1-3,SW1-3,U1-5,U8-10",
+    "used_designators": "#PWR1-5,#PWR7,#PWR11,#PWR13-18,#PWR21-42,BT1-3,C1-45,D3,J1-14,JP1-2,R1-21,RJ1-2,RV1-3,SW1-3,TP1-7,U1-10",
     "variants": []
   },
   "sheets": [
@@ -722,6 +727,10 @@
     [
       "0d84c810-7c5d-4167-9fab-4b34cfa287f6",
       "RTC"
+    ],
+    [
+      "50134f5f-c4c8-40a6-ad96-069a1d577a12",
+      "DSP"
     ],
     [
       "b1566fbf-ae90-4e97-8064-9c0dd17ec02c",

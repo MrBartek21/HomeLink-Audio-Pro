@@ -2090,12 +2090,6 @@
 		(color 0 0 0 0)
 		(uuid "d0349d73-cdd1-497c-99fe-b9120257b801")
 	)
-	(junction
-		(at 135.89 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7705e68-4e9e-4dd5-a25c-fe65b122b9a2")
-	)
 	(no_connect
 		(at 105.41 64.77)
 		(uuid "5b04b927-4dce-49e9-b7f4-58e238c33301")
@@ -2126,7 +2120,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 135.89 93.98)
+			(xy 142.24 90.17) (xy 135.89 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2376,23 +2370,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 88.9) (xy 135.89 85.09)
+			(xy 135.89 85.09) (xy 135.89 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80f94514-e4ca-4bf6-bd28-33f6cdec15b7")
-	)
-	(wire
-		(pts
-			(xy 135.89 93.98) (xy 135.89 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83105dc6-41c0-4434-b3fe-dca7e8489ff9")
 	)
 	(wire
 		(pts
@@ -2403,6 +2387,16 @@
 			(type default)
 		)
 		(uuid "864afd69-1d6f-4eac-99dd-0409e3df83fd")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 121.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbb0553-9529-4102-938f-c56963bd1815")
 	)
 	(wire
 		(pts
@@ -2526,16 +2520,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 135.89 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce910c74-f0b9-4a0d-99fe-00559822e4f8")
-	)
-	(wire
-		(pts
 			(xy 52.07 36.83) (xy 90.17 36.83)
 		)
 		(stroke
@@ -2594,8 +2578,18 @@
 		)
 		(uuid "fe8ae453-177f-4281-801f-17cf9345736f")
 	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef20858-906e-4421-90ae-8992516c33f8")
+	)
 	(label "RESET"
-		(at 144.78 93.98 0)
+		(at 142.24 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2714,9 +2708,9 @@
 		)
 		(uuid "eda79d07-c1b4-4581-ae20-eb2570150ee4")
 	)
-	(global_label "RESET_ATMEGA328P"
-		(shape input)
-		(at 142.24 88.9 0)
+	(global_label "PRESENC"
+		(shape output)
+		(at 121.92 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2724,9 +2718,9 @@
 			)
 			(justify left)
 		)
-		(uuid "02fdcb69-9025-4c8b-9c53-4c4a970397b6")
+		(uuid "316c1d65-5f2b-48c9-b560-c9b285cb856f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.8516 88.9 0)
+			(at 133.5532 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,6 +2897,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "ACT"
+		(shape output)
+		(at 121.92 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9deed3eb-f808-46d0-b8d8-76e721f30f99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.2314 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
