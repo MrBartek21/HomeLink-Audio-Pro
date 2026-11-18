@@ -675,11 +675,6 @@
         "uuid": "118f3f0c-666b-4388-99b3-fa6016ff19f3"
       },
       {
-        "filename": "pullup.kicad_sch",
-        "name": "PullUp",
-        "uuid": "975d91cb-5b41-4aa6-8682-2767e2f66207"
-      },
-      {
         "filename": "led.kicad_sch",
         "name": "Led",
         "uuid": "e378d097-1513-4619-8ae2-1810447a3ae5"
@@ -698,9 +693,14 @@
         "filename": "dsp.kicad_sch",
         "name": "DSP",
         "uuid": "50134f5f-c4c8-40a6-ad96-069a1d577a12"
+      },
+      {
+        "filename": "usb.kicad_sch",
+        "name": "USB",
+        "uuid": "f158d818-1b66-4b11-93bd-064d40b606c8"
       }
     ],
-    "used_designators": "#PWR1-5,#PWR7,#PWR11,#PWR13-18,#PWR21-42,BT1-3,C1-45,D3,J1-14,JP1-2,R1-21,RJ1-2,RV1-3,SW1-3,TP1-7,U1-10",
+    "used_designators": "#PWR1-5,#PWR7,#PWR11,#PWR13-19,#PWR21-47,BT1-3,C1-45,D1-7,J1-14,JP1-2,R1-31,RJ1-2,RV1-3,SW1-3,TP1-10,U1-12,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -717,10 +717,6 @@
       "MultiMax"
     ],
     [
-      "975d91cb-5b41-4aa6-8682-2767e2f66207",
-      "PullUp"
-    ],
-    [
       "e378d097-1513-4619-8ae2-1810447a3ae5",
       "Led"
     ],
@@ -735,6 +731,10 @@
     [
       "b1566fbf-ae90-4e97-8064-9c0dd17ec02c",
       "IO"
+    ],
+    [
+      "f158d818-1b66-4b11-93bd-064d40b606c8",
+      "USB"
     ]
   ],
   "text_variables": {},
