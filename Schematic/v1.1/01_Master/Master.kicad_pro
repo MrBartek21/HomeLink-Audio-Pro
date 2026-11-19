@@ -563,66 +563,114 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Do Not Place",
+          "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Opis",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Oznaczenie"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -680,11 +728,6 @@
         "uuid": "e378d097-1513-4619-8ae2-1810447a3ae5"
       },
       {
-        "filename": "ds3231.kicad_sch",
-        "name": "RTC",
-        "uuid": "0d84c810-7c5d-4167-9fab-4b34cfa287f6"
-      },
-      {
         "filename": "io.kicad_sch",
         "name": "IO",
         "uuid": "b1566fbf-ae90-4e97-8064-9c0dd17ec02c"
@@ -700,7 +743,7 @@
         "uuid": "f158d818-1b66-4b11-93bd-064d40b606c8"
       }
     ],
-    "used_designators": "#PWR1-5,#PWR7,#PWR11,#PWR13-49,BT1-3,C1-45,D1-7,J1-14,JP1-2,R1-31,RJ1-2,RV1-3,SW1-3,TP1-10,U1-12,Y1-2",
+    "used_designators": "#PWR1-5,#PWR7,#PWR11,#PWR13-49,BT1-3,C1-45,D1-7,J1-14,JP1-3,R1-31,RJ1-2,RV1-3,SW1-3,TP1-10,U1-12,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -719,10 +762,6 @@
     [
       "e378d097-1513-4619-8ae2-1810447a3ae5",
       "Led"
-    ],
-    [
-      "0d84c810-7c5d-4167-9fab-4b34cfa287f6",
-      "RTC"
     ],
     [
       "50134f5f-c4c8-40a6-ad96-069a1d577a12",

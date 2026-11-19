@@ -3813,6 +3813,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 57.15) (xy 208.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2589b8-2f8d-43a6-b1bf-a9eda355d131")
+	)
+	(wire
+		(pts
 			(xy 54.61 31.75) (xy 57.15 31.75)
 		)
 		(stroke
@@ -4303,6 +4313,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 57.15) (xy 220.98 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7b845b-ebd0-4f45-9816-cfd12aa8b8bf")
+	)
+	(wire
+		(pts
 			(xy 46.99 39.37) (xy 46.99 66.04)
 		)
 		(stroke
@@ -4380,16 +4400,6 @@
 			(type default)
 		)
 		(uuid "d6dd6a58-fa82-4637-8152-44d868509cb7")
-	)
-	(wire
-		(pts
-			(xy 204.47 57.15) (xy 208.28 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8e16832-de77-4205-b462-99b3698806ae")
 	)
 	(wire
 		(pts
@@ -4817,7 +4827,7 @@
 	)
 	(global_label "MASTER_RESET"
 		(shape input)
-		(at 208.28 57.15 0)
+		(at 220.98 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4827,7 +4837,7 @@
 		)
 		(uuid "1ba47ca1-c0a5-4c62-b288-037596e83ea5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.114 57.15 0)
+			(at 237.814 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,6 +5556,85 @@
 			(project "Master"
 				(path "/f158d818-1b66-4b11-93bd-064d40b606c8"
 					(reference "*R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 210.82 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "102fd3bf-8814-4d7c-9da0-57edb7908246")
+		(property "Reference" "C42"
+			(at 213.614 53.848 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 214.63 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+			(at 210.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 220.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55546b6b-1f89-464c-b970-d17d81ce4a95")
+		)
+		(pin "2"
+			(uuid "43a01901-7b3a-4672-88a0-b0e5fc87a7b1")
+		)
+		(instances
+			(project "Master"
+				(path "/f158d818-1b66-4b11-93bd-064d40b606c8"
+					(reference "C42")
 					(unit 1)
 				)
 			)
