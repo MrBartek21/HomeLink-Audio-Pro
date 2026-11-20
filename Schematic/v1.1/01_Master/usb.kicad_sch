@@ -3138,6 +3138,12 @@
 		(uuid "a0408032-17ec-4d80-9cf0-43dba9bdf632")
 	)
 	(junction
+		(at 25.4 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a84eabab-8157-48c3-a06a-3e5f3c7a56d2")
+	)
+	(junction
 		(at 54.61 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3214,6 +3220,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc50c71c-475e-45bd-a613-d54323b7ff09")
+	)
+	(junction
+		(at 87.63 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe6f7198-7110-4d58-b22f-dc0a122a721e")
 	)
 	(no_connect
 		(at 90.17 100.33)
@@ -3313,6 +3325,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 31.75) (xy 95.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11067bc0-a2b3-4c40-8ee3-ae46c1ce15bd")
+	)
+	(wire
+		(pts
 			(xy 46.99 39.37) (xy 58.42 39.37)
 		)
 		(stroke
@@ -3360,6 +3382,16 @@
 			(type default)
 		)
 		(uuid "1c728025-4179-47dc-8c3c-432807448f33")
+	)
+	(wire
+		(pts
+			(xy 87.63 19.05) (xy 87.63 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf32025-e20c-4852-82bd-33a1559ad0dd")
 	)
 	(wire
 		(pts
@@ -3680,6 +3712,16 @@
 			(type default)
 		)
 		(uuid "4d62076d-a00a-4b76-b189-8848c515f57a")
+	)
+	(wire
+		(pts
+			(xy 25.4 19.05) (xy 25.4 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d63e4d2-ad35-4bcd-9e6e-1170b194c8b0")
 	)
 	(wire
 		(pts
@@ -4013,6 +4055,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 19.05) (xy 87.63 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945f16b5-abf6-42fb-9fbd-bbe62c60796b")
+	)
+	(wire
+		(pts
 			(xy 138.43 162.56) (xy 148.59 162.56)
 		)
 		(stroke
@@ -4313,6 +4365,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 19.05) (xy 25.4 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1c9e28-acea-48ba-8574-fdb7ae8e0f37")
+	)
+	(wire
+		(pts
 			(xy 213.36 57.15) (xy 220.98 57.15)
 		)
 		(stroke
@@ -4373,7 +4435,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 31.75) (xy 69.85 31.75)
+			(xy 64.77 31.75) (xy 87.63 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5139,7 +5201,7 @@
 	)
 	(global_label "USB_HOST_DET"
 		(shape output)
-		(at 69.85 31.75 0)
+		(at 95.25 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5149,7 +5211,7 @@
 		)
 		(uuid "f8712013-1891-4c54-8a6a-61eb1c344feb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.8051 31.75 0)
+			(at 112.2051 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,6 +7110,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 80.01 19.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c6104fe-01a1-4735-a3fe-1782811472ea")
+		(property "Reference" "R37"
+			(at 77.978 16.764 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 83.058 16.764 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 80.01 17.272 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7124d37e-5fb4-458f-8179-c535017da559")
+		)
+		(pin "1"
+			(uuid "7ffd48fc-67ff-40bc-8095-ad01e0af6fb5")
+		)
+		(instances
+			(project "Master"
+				(path "/f158d818-1b66-4b11-93bd-064d40b606c8"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 77.47 151.13 90)
 		(unit 1)
@@ -7305,10 +7446,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83439113-cf01-4b8c-b017-d105ec4cdb05")
 		(property "Reference" "R21"
-			(at 49.53 17.78 90)
+			(at 46.736 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7318,7 +7458,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 49.53 20.32 90)
+			(at 51.562 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
