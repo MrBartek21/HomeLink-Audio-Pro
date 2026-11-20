@@ -1935,7 +1935,7 @@
 			)
 		)
 	)
-	(global_label "PRESENC"
+	(global_label "RJ_LED_LINK"
 		(shape input)
 		(at 193.04 46.99 180)
 		(fields_autoplaced yes)
@@ -1947,7 +1947,7 @@
 		)
 		(uuid "2b6220e8-c0d3-49b4-9ec4-40c1fd076f05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4068 46.99 0)
+			(at 178.2015 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2007,7 +2007,7 @@
 			)
 		)
 	)
-	(global_label "ACT"
+	(global_label "RJ_LED_ACT"
 		(shape input)
 		(at 238.76 49.53 0)
 		(fields_autoplaced yes)
@@ -2019,7 +2019,7 @@
 		)
 		(uuid "576d7676-6ece-445a-a062-fa6a8c70fdc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0714 49.53 0)
+			(at 252.6913 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2139,7 +2139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44e60dad-33c3-4acf-950a-9674eb9ea4a9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR016"
 			(at 97.79 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2199,7 +2199,7 @@
 		(instances
 			(project "Master"
 				(path "/118f3f0c-666b-4388-99b3-fa6016ff19f3"
-					(reference "#PWR022")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2448,7 +2448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afa3f347-9d8a-4a34-8bb9-36123ce0428e")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 39.37 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +2512,7 @@
 		(instances
 			(project "Master"
 				(path "/118f3f0c-666b-4388-99b3-fa6016ff19f3"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e434ba0c-145d-422f-8730-36cefc56b09c")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 97.79 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -2690,7 +2690,7 @@
 		(instances
 			(project "Master"
 				(path "/118f3f0c-666b-4388-99b3-fa6016ff19f3"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc9271fb-9585-4968-8660-9dae5a197a90")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR021"
 			(at 195.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2768,7 +2768,7 @@
 		(instances
 			(project "Master"
 				(path "/118f3f0c-666b-4388-99b3-fa6016ff19f3"
-					(reference "#PWR039")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
